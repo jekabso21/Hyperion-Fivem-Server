@@ -56,8 +56,8 @@ function handleZ(minZ, maxZ)
   end
   
   DisableControlAction(0, 99, true)
-  if IsDisabledControlJustPressed(0, 99) then
-    if IsControlPressed(0, 19) then -- alt held down
+  if IsDisabledControlJustPressed(0, 243) then
+    if IsControlPressed(0, 243) then -- alt held down
       return minZ + delta, maxZ
     end
     if IsControlPressed(0, 21) then -- shift held down

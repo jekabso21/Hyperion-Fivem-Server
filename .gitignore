@@ -2,3 +2,7 @@
 /.replxx_history
 /server.cfg
 /server.cfg.bkp
+/resources/[assets]
+/cache
+.txt
+.ini
