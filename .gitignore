@@ -2,7 +2,16 @@
 /.replxx_history
 /server.cfg
 /server.cfg.bkp
-/resources/[assets]
+/resources/[assets]/*
+
 /cache
 .txt
 .ini
+*.meta
+*.ymt
+*.xml
+*.dat
+*.yft
+*.ytd
+*.ydd
+*.ydr
