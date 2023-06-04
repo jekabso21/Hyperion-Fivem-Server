@@ -5,6 +5,7 @@ description 'QB-PoliceJob'
 version '1.2.5'
 
 shared_scripts {
+	'@ox_lib/init.lua',
     'config.lua',
     '@qb-core/shared/locale.lua',
     'locales/en.lua',

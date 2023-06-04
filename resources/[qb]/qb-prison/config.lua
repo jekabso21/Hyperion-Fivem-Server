@@ -12,7 +12,8 @@ if not isServer then
     function Config.OnHackDone(success, currentGate, gateData)
         if success then
             TriggerServerEvent("prison:server:SetGateHit", currentGate)
-            TriggerServerEvent('qb-doorlock:server:updateState', gateData.gatekey, false, false, false, true)
+            -- TODO: Add a trigger to the server to update the state of the gate. From qb-doorlock to ox-doorlock
+            --TriggerServerEvent('qb-doorlock:server:updateState', gateData.gatekey, false, false, false, true)
         else
             TriggerServerEvent("prison:server:SecurityLockdown")
         end

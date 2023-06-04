@@ -1831,6 +1831,7 @@ function sendToDiscord(color, name, message, footer)
 end
 
 function format_time(time)
+	print(time)
     local days = math.floor(time / 86400)
     time = time % 86400
     local hours = math.floor(time / 3600)
